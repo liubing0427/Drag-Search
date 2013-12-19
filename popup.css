@@ -1,0 +1,17 @@
+﻿body {
+  color: black;
+  background: #f0f0f0;
+  margin: 0px;
+  font-family: Arial, Helvetica, 宋体;
+  Width: 200px;
+}
+
+div.popup {
+  margin: 0px;
+  font-family: Arial, Helvetica, 宋体;  
+}
+
+select{
+  font-family: Arial, Helvetica, 宋体;
+  Width: 200px;
+}

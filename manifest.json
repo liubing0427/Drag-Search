@@ -1,0 +1,35 @@
+﻿{
+    "background": {
+        "page": "background.html"
+    }, 
+    "manifest_version": 2, 
+    "name": "Drag Search", 
+    "description": "百度划词搜索,支持拖拽搜索和右键菜单搜索", 
+    "version": "1.0", 
+    "content_scripts": [
+        {
+            "all_frames": true, 
+            "js": [
+                "context.js"
+            ], 
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ], 
+    "browser_action": {
+        "default_title": "Drag Search", 
+        "default_icon": "images/logo48x48.png", 
+        "default_popup": "popup.html"
+    }, 
+    "permissions": [
+        "contextMenus", 
+        "tabs",
+		"storage"
+    ], 
+    "icons": {
+        "16": "images/logo16x16.png", 
+        "48": "images/logo48x48.png", 
+        "128": "images/logo128x128.png"
+    }
+}
